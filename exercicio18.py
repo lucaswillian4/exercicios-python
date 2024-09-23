@@ -1,0 +1,6 @@
+deposito = float(input("qual o valor do deposito "))
+juros = float(input("qual a taxa de juros "))
+rendimento = (juros*deposito/100)
+print (f"seu rendimento é {rendimento}")
+vt = (deposito+rendimento-juros)
+print (f"o valor total é {vt}")
